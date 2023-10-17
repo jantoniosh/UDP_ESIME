@@ -1,7 +1,7 @@
 const dgram = require('dgram');
 
 let PORT = 33333;
-let HOST = '127.0.0.1';
+let HOST = '192.168.1.40';
 
 let client = dgram.createSocket('udp4');
 let conta = 0;
